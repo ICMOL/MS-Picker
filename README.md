@@ -23,9 +23,9 @@
 
 
 ## Step 3. Run MS-Picker
-執行MS-Picker
+執行MS-Picker，執行過程會顯示執行到的步驟與執行時間。
 ![image](https://github.com/ICMOL/MS-Picker/blob/main/MS-Picker_cmd2.png)
 
 ## Step 4. 察看結果
-到output的資料夾中打開輸出的txt檔案
+到output的資料夾中打開輸出的txt檔案查看結過表格，可用excel打開。
 ![image](https://github.com/ICMOL/MS-Picker/blob/main/MS-Picker_txt1.png)
