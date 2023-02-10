@@ -9,8 +9,6 @@
 
 * metabolomics or proteomics file, which is convert to mzML file by ProteoWizard MSConvert.
 * Input data in **mzML** file format.
-* Item 2a
-* Item 2b
 
 ### System Requirement
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
