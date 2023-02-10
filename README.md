@@ -18,8 +18,9 @@
 ## Step 1. Open command line
 
 ## Step 2. Start MS-Picker and input parameter
-* 依序輸入，並以空白鍵分隔1.Java啟動指令: java -jar MSPicker.jar 2.要輸入metabolomics或proteomics，分別以0和1區分 3.輸入的檔案資料夾位址 4. 輸出檔案位址5.所要求的mztol (ex: 0.02)
-* 輸入範例: java -jar C:\Users \MS_Picker.jar 1 X:\Users\demo_data\test.mzML X:\james\demo_data\output 0.02
+* 依序輸入，並以空白鍵分隔1.Java啟動指令: java -jar MSPicker.jar 2.要輸入metabolomics或proteomics，分別以0和1區分 3.輸入的檔案資料夾位址，可以輸入單一或多個mzML檔案 4. 輸出檔案位址5.所要求的mztol (ex: 0.02)
+* 輸入單一檔案範例: java -jar C:\Users \MS_Picker.jar 1 X:\Users\demo_data\test.mzML X:\james\demo_data\output 0.02
+輸入多個檔案範例: java -jar C:\Users \MS_Picker.jar 1 X:\Users\demo_data\*.mzML X:\james\demo_data\output 0.02
 
 
 
