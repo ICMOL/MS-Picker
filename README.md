@@ -21,8 +21,8 @@
 ## Step 1. Open command line 打開命令提示字元
 
 ## Step 2. Start MS-Picker and input parameter 啟動MS-Picker並輸入參數
-*Input in order and separated by a blank key 1. Java startup command: java -jar MSPicker.jar 2. To input metabolomics or proteomics, separate them with 0 and 1 respectively 3. Input file folder address, you can enter single or multiple mzML file 4. Output file address 5. Required mztol (ex: 0.02)
-*Input single file example: java -jar C:\Users\MS_Picker.jar 1 X:\Users\demo_data\test.mzML X:\james\demo_data\output 0.02
+* Input in order and separated by a space bar 1. Java startup command: java -jar MSPicker.jar 2. To input metabolomics or proteomics, separate them with 0 and 1 respectively 3. Input file folder address, you can enter single or multiple mzML file 4. Output file address 5. Required mztol (ex: 0.02)
+* Input single file example: java -jar C:\Users\MS_Picker.jar 1 X:\Users\demo_data\test.mzML X:\james\demo_data\output 0.02
 * Input multiple file example: java -jar C:\Users\MS_Picker.jar 1 X:\Users\demo_data\*.mzML X:\james\demo_data\output 0.02
 * 依序輸入，並以空白鍵分隔1.Java啟動指令: java -jar MSPicker.jar 2.要輸入metabolomics或proteomics，分別以0和1區分 3.輸入的檔案資料夾位址，可以輸入單一或多個mzML檔案 4. 輸出檔案位址5.所要求的mztol (ex: 0.02)
 * 輸入單一檔案範例: java -jar C:\Users \MS_Picker.jar 1 X:\Users\demo_data\test.mzML X:\james\demo_data\output 0.02
@@ -31,11 +31,11 @@
 
 
 ## Step 3. Run MS-Picker 執行MS-Picker
-*Execute MS-Picker, the execution process will display the execution steps and execution time.*
+*Execute MS-Picker, the execution process will display execution steps and execution time.*
 *執行MS-Picker，執行過程會顯示執行到的步驟與執行時間。*
 ![image](https://github.com/ICMOL/MS-Picker/blob/main/MS-Picker_cmd2.png)
 
 ## Step 4. view result 察看結果
-*Go to the output folder and open the output txt file to view the completed form, which can be opened with excel.*
+*Go to the output folder and open the output txt file to view result, which can be opened with excel.*
 *到output的資料夾中打開輸出的txt檔案查看結過表格，可用excel打開。*
 ![image](https://github.com/ICMOL/MS-Picker/blob/main/MS-Picker_txt1.png)
