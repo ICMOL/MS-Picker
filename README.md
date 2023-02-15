@@ -14,8 +14,8 @@
 
 * metabolomics or proteomics file, which is convert to mzML file by ProteoWizard MSConvert.
 * Input data in **mzML** file format.
-*代謝組學或蛋白質組學文件，由 ProteoWizard MSConvert 轉換為 mzML 文件。
-*以 **mzML** 文件格式輸入數據。
+* 代謝組學或蛋白質組學文件，由 ProteoWizard MSConvert 轉換為 mzML 文件。
+* 以 **mzML** 文件格式輸入數據。
 ### System Requirement 系統要求
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
 
