@@ -5,6 +5,7 @@ MS-Picker is a software tool implemented for detecting peaks from either proteom
 
 ![image](https://github.com/ICMOL/MS-Picker/blob/main/MS-Picker_workflow_ver1.png)
 MS-Picker Workflow  <請將figure legend 從圖片中拿掉, 這樣不符合格式. figure legend 應該是放在圖片下方, 而不是在圖片中>
+<workflow中 proteomics/metabolomics data 應該可以和 mzML 整合, 不需要這樣浪費空間>
 
 ## System Requirement
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
