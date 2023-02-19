@@ -10,7 +10,9 @@ MS-Picker Workflow  <請將figure legend 從圖片中拿掉, 這樣不符合格�
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
 
 ## Parameter Description
+
 |parameter|description|
+| ------------- | ------------- |
 |omics_index| the index for indicating if the input is a proteomics dataset or a metabolomics dataset. 0: metabolomics; 1: proteomics|
 |mzTol| the m/z tolerance for detecting a peak|
 
