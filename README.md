@@ -19,8 +19,8 @@ MS-Picker Workflow  <請將figure legend 從圖片中拿掉, 這樣不符合格�
 
 ## How to Use (請將你的command改成下列格式)
 * java -jar MS-Picker input_files output_folder omics_index mzTol
-* (for a single file) java -jar MS_Picker.jar D:\test.mzML D:\output_folder 0 0.02
-* (for multiple files) java -jar MS_Picker.jar D:\*.mzML D:\output_folder 0 0.02
+* (for a single file) java -jar MS_Picker.jar D:\\test.mzML D:\\output_folder 0 0.02
+* (for multiple files) java -jar MS_Picker.jar D:\\*.mzML D:\\output_folder 0 0.02
 
 ## References (麻煩將文章作者/題目和發表年等資料放在這裡, 可用 endnote)
 1. iMet-Q
