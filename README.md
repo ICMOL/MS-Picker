@@ -18,15 +18,14 @@ Figure 1. The workflow of MS-Picker, including nosie remal, deisotoping, extract
 
 
 ## How to Use (for ver_1.0)
-* java -jar MS-Picker omics_index mzTol output_folder input_folder
-* The input_folder should only contain the mzML files to be analyzed.
-* (for a single file) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\input_folder
-* (for multiple files) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\input_folder
-
-## How to Use (for ver_2.0)
 * java -jar MS-Picker omics_index mzTol output_folder input_files
 * (for a single file) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\test.mzML
 * (for multiple files) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\*.mzML
+
+## How to Use (for ver_2.0)
+* java -jar MS-Picker mzTol output_folder input_folder
+* The input_folder should only contain the mzML files to be analyzed.
+* java -jar MS_Picker.jar 0.02 D:\\output_folder D:\\input_folder
 
 ## References
 1. Chang H-Y, Chen C-T, Lih TM, Lynn K-S, Juo C-G, Hsu W-L, et al. (2016) iMet-Q: A User-Friendly Tool for Label-Free Metabolomics Quantitation Using Dynamic Peak-Width Determination. PLoS ONE 11(1): e0146112. https://doi.org/10.1371/journal.pone.0146112
