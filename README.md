@@ -17,7 +17,13 @@ Figure 1. The workflow of MS-Picker, including nosie remal, deisotoping, extract
 |mzTol| the m/z tolerance for detecting a peak|
 
 
-## How to Use 
+## How to Use (for ver_1.0)
+* java -jar MS-Picker omics_index mzTol output_folder input_folder
+* The input_folder should only contain the mzML files to be analyzed.
+* (for a single file) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\input_folder
+* (for multiple files) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\input_folder
+
+## How to Use (for ver_2.0)
 * java -jar MS-Picker omics_index mzTol output_folder input_files
 * (for a single file) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\test.mzML
 * (for multiple files) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\*.mzML
