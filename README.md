@@ -20,7 +20,7 @@ Figure 1. The workflow of MS-Picker, including nosie remal, deisotoping, extract
 * (for a single file) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\test.mzML
 * (for multiple files) java -jar MS_Picker.jar 0 0.02 D:\\output_folder D:\\*.mzML
 
-# How to Use (for ver_2.0)
+# How to Use (for ver_1.2.0)
 * java -jar MS-Picker mzTol output_folder input_folder
 * The input_folder should only contain the mzML files to be analyzed.
 * java -jar MS_Picker.jar 0.02 D:\\output_folder D:\\input_folder
