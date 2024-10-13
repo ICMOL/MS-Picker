@@ -11,9 +11,9 @@ Figure 1. The workflow of MS-Picker, including nosie remal, deisotoping, extract
 
 |parameter|description|
 | ------------- | ------------- |
-|mzTol| the m/z tolerance for detecting a peak|
+|mzTol| The m/z tolerance for detecting a peak.|
 |input_folder| The location of mzML files to be processed.|
-|input_folder| The location of mzML files to be processed.|
+|output_folder| The location of output files (a peak list corresponds to an mzML file.|
 
 * The input_folder should only contain the mzML files to be analyzed. (在程式中設定只取 mzML 檔案)
 
