@@ -18,7 +18,7 @@ Figure 1. The workflow of MS-Picker, including nosie remal, deisotoping, extract
 * The input_folder should only contain the mzML files to be analyzed. (在程式中設定只取 mzML 檔案)
 
 # How to Use
-* java -jar MS-Picker mzTol output_folder input_folder (將 input_folder, output_folder 對調)
+* java -jar MS-Picker mzTol output_folder input_folder (能一個一個 mzML 檔案輸入嗎?)
 * java -jar MS_Picker.jar 0.02 D:\\output_folder D:\\input_folder 
 
 # References
