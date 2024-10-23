@@ -18,13 +18,13 @@ MS-Picker is a software tool implemented for detecting peaks from metabolomics d
 
 # How to Use
 * **For a single mzML file**   
-java -jar MS-Picker.jar mzTol output_folder input_file   
+<u>java -jar MS-Picker.jar mzTol output_folder input_file</u>   
   e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\test1.mzML   
     
 * **For a mltiple mzML files**   
-<mark>java -jar MS-Picker.jar mzTol output_folder input_file</mark>   
+<u>java -jar MS-Picker.jar mzTol output_folder input_file1 input_file2 input_file3</u>   
   e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\test1.mzML D:\test2.mzML D:\test3.mzML   
-java -jar MS-Picker.jar mzTol output_folder input_file   
+<u>java -jar MS-Picker.jar mzTol output_folder input_folder_path\*.mzML</u>   
   e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\*.mzML   
 
 # References
