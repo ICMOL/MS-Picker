@@ -17,15 +17,19 @@ MS-Picker is a software tool implemented for detecting peaks from metabolomics d
 
 
 # How to Use
-* **For a single mzML file**  
+* **For a single mzML file**
+<blockquote>
 java -jar MS-Picker.jar mzTol output_folder input_file   
-        e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\test1.mzML   
+e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\test1.mzML  
+</blockquote>
     
-* **For a mltiple mzML files**    
-java -jar MS-Picker.jar mzTol output_folder input_file1 input_file2 input_file3   
-<blockquote>e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\test1.mzML D:\\test2.mzML D:\test3.mzML</blockquote>      
-java -jar MS-Picker.jar mzTol output_folder input_folder_path\\\*.mzML  
-        e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\\*.mzML   
+* **For a mltiple mzML files**
+<blockquote>
+java -jar MS-Picker.jar mzTol output_folder input_file1 input_file2 input_file3     
+e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\test1.mzML D:\\test2.mzML D:\test3.mzML         
+java -jar MS-Picker.jar mzTol output_folder input_folder_path\\\*.mzML     
+e.g., java -jar MS-Picker.jar 0.02 D:\\output_folder D:\\\*.mzML      
+</blockquote>
 
 # References
 1. Chang H-Y, Chen C-T, Lih TM, Lynn K-S, Juo C-G, Hsu W-L, et al. (2016) iMet-Q: A User-Friendly Tool for Label-Free Metabolomics Quantitation Using Dynamic Peak-Width Determination. PLoS ONE 11(1): e0146112. https://doi.org/10.1371/journal.pone.0146112
