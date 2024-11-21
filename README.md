@@ -36,4 +36,3 @@ MS-Picker, part of our MS-ToolBox, is a software tool designed to detect peaks i
 
 # References
 1. Chang H-Y, Chen C-T, Lih TM, Lynn K-S, Juo C-G, Hsu W-L, et al. (2016) iMet-Q: A User-Friendly Tool for Label-Free Metabolomics Quantitation Using Dynamic Peak-Width Determination. PLoS ONE 11(1): e0146112. https://doi.org/10.1371/journal.pone.0146112
-2. Senko MW, Beu SC, McLaffertycor FW. Determination of monoisotopic masses and ion populations for large biomolecules from resolved isotopic distributions. J Am Soc Mass Spectrom. 1995 Apr;6(4):229-33. doi: 10.1016/1044-0305(95)00017-8. PMID: 24214167.(the article about theoretical isotope pattern generation)
