@@ -1,5 +1,5 @@
 # Introduction
-MS-Picker is a software tool designed to detect peaks in metabolomics datasets obtained from the LC-MS platform. It performs noise reduction, de-isotoping, and extracted ion chromatogram (XIC) construction, following the algorithms detailed in [1]. The tool outputs the m/z, retention time, charge states, and intensities of the detected features.
+MS-Picker is a software tool designed to detect peaks in metabolomics datasets obtained from the LC-MS platform. It performs noise reduction, de-isotoping, and extracted ion chromatogram (XIC) construction. The tool outputs the m/z, retention time, charge states, and intensities of the detected features.
 
 # System Requirement
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
@@ -34,5 +34,3 @@ MS-Picker is a software tool designed to detect peaks in metabolomics datasets o
     </blockquote>
 </blockquote>
 
-# References
-1. Chang H-Y, Chen C-T, Lih TM, Lynn K-S, Juo C-G, Hsu W-L, et al. (2016) iMet-Q: A User-Friendly Tool for Label-Free Metabolomics Quantitation Using Dynamic Peak-Width Determination. PLoS ONE 11(1): e0146112. https://doi.org/10.1371/journal.pone.0146112
