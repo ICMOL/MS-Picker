@@ -1,5 +1,5 @@
 # Introduction
-MS-Picker is a software tool designed to detect peaks in metabolomics datasets obtained from the LC-MS platform. It performs noise reduction, de-isotoping, and extracted ion chromatogram (XIC) construction. The tool outputs the m/z, retention time, charge states, and intensities of the detected features.
+MS-Picker is a software tool designed to detect peaks in metabolomics datasets obtained from the LC-MS platform. It performs noise reduction, de-isotoping, and extracted ion chromatogram (XIC) construction. The tool outputs the *m/z*, retention time, charge states, and intensities of the detected features.
 
 # System Requirement
 * [Java SE Runtime Environment 15(or above)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
