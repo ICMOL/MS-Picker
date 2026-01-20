@@ -22,7 +22,7 @@ MS-Picker is a software tool designed to detect peaks in metabolomics datasets o
     </blockquote>
 </blockquote>
     
-* **For mltiple mzML files**
+* **For multiple mzML files**
 <blockquote>
     java -jar MS-Picker.jar mzTol output_folder input_file1 input_file2 input_file3<br>
     <blockquote>
