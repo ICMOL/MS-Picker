@@ -8,7 +8,7 @@ MS-Picker is a software tool designed to detect peaks in metabolomics datasets o
 
 |parameter|description|
 | ------------- | ------------- |
-|mzTol| The *m/z* tolerance for detecting a peak.|
+|mzWidth| The *m/z* width for detecting a peak.|
 |input_file| The location of mzML files to be processed.|
 |output_folder| The location of output files (a peak list corresponds to an mzML file.|
 
@@ -16,7 +16,7 @@ MS-Picker is a software tool designed to detect peaks in metabolomics datasets o
 # How to Use
 * **For a single mzML file**
 <blockquote>
-    java -jar MS-Picker.jar mzTol output_folder input_file<br>
+    java -jar MS-Picker.jar mzWidth output_folder input_file<br>
     <blockquote>
     e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\test1.mzML
     </blockquote>
@@ -24,11 +24,11 @@ MS-Picker is a software tool designed to detect peaks in metabolomics datasets o
     
 * **For multiple mzML files**
 <blockquote>
-    java -jar MS-Picker.jar mzTol output_folder input_file1 input_file2 input_file3<br>
+    java -jar MS-Picker.jar mzWidth output_folder input_file1 input_file2 input_file3<br>
     <blockquote>
     e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\test1.mzML D:\test2.mzML D:\test3.mzML<br>
     </blockquote>
-    java -jar MS-Picker.jar mzTol output_folder input_folder_path\*.mzML<br>
+    java -jar MS-Picker.jar mzWidth output_folder input_folder_path\*.mzML<br>
     <blockquote>
     e.g., java -jar MS-Picker.jar 0.02 D:\output_folder D:\*.mzML
     </blockquote>
